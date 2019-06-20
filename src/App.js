@@ -1,10 +1,13 @@
 import React from 'react';
+
 import profile from './resource/200_200.jpg';
 import phone from './resource/phone-receiver.png';
 import github from './resource/github-logo.png';
 import blog from './resource/social-rss.png';
 import email from './resource/envelope.png';
+
 import './App.scss';
+
 import InfoComponent from './InfoComponent';
 
 function App() {
@@ -30,6 +33,7 @@ function App() {
       alt : 'blog'
     }
   ]
+  
   const InfoList = MyInfo.map(info => (
     (<InfoComponent image={info.image} ptag={info.ptag} alt={info.alt}></InfoComponent>)
   ))
