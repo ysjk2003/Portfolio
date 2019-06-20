@@ -1,0 +1,25 @@
+h1 {
+  margin: 0 1rem 0 1rem;
+}
+
+.App {
+  margin: 2rem 20% 0 20%;
+}
+
+p {
+  display: inline;
+}
+
+.Info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  p {
+    padding-left: 1rem;
+  }
+}
+
+header {
+  display: flex;
+  margin: 1rem 0 0 1rem;
+}
